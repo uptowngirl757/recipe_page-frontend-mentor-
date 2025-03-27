@@ -101,7 +101,7 @@ hr {
   margin-block: 0 0.5rem;
 }
 
-@media (max-width: 475px) {
+@media (max-width: 600px) {
   body {
     min-height: 100vh;
     max-width: 100%;
