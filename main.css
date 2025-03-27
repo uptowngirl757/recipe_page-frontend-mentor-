@@ -100,7 +100,27 @@ hr {
 .recipe__nutrition .recipe__description {
   margin-block: 0 0.5rem;
 }
+@media (max-width: 1000px){
+  .recipe {
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+  }
 
+  .recipe__content-main {
+    padding: 1rem 2.5rem;
+  }
+  .recipe__img img {
+    display: block;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+  }
+  .recipe__header .recipe__title {
+    font-size: 1.5rem;
+  }
+}
 @media (max-width: 600px) {
   body {
     min-height: 100vh;
