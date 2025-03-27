@@ -9,7 +9,7 @@
 body {
   background-color: hsl(30, 54%, 90%);
   min-height: 100vh;
-  max-width: 40%;
+  max-width: 60%;
   font-family: "Inter", sans-serif;
   display: flex;
   flex-direction: column;
@@ -93,6 +93,10 @@ hr {
   font-size: 1.1rem;
   margin-block: 0 0.4rem;
 }
+.recipe__step{
+  line-height: 2;
+}
+
 .recipe__instructions .recipe__step {
   padding-block: 0 0.6rem;
 }
