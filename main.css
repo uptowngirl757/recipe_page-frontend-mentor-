@@ -136,8 +136,14 @@ hr {
   padding: 10px;
   text-align: left;
 }
-
-@media (max-width: 840px) {
+@media (max-width: 900px) {
+  .wrapper {
+    width: 100%;
+    max-width: 500px;
+    margin: 7rem auto;
+  }
+}
+@media (max-width: 600px) {
   body {
     min-height: 100vh;
     display: block;
