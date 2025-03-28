@@ -126,7 +126,7 @@ hr {
   text-align: left;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 840px) {
   body {
     min-height: 100vh;
     display: block;
