@@ -36,8 +36,15 @@ tr {
   color: hsl(30, 10%, 34%);
   font-size: 14px;
 }
+
 li {
   margin-left: 1rem;
+}
+
+ul,
+ol {
+  list-style-position: outside;
+  text-indent: 10px;
 }
 hr {
   display: block;
@@ -110,12 +117,16 @@ hr {
 .recipe__nutrition .recipe__description {
   margin-block: 0 0.5rem;
 }
-
+.table-con {
+  padding: 2rem 0;
+}
 .recipe__nutrition-table {
   width: 100%;
   border-collapse: collapse;
 }
-
+.recipe__nutrition-row .recipe__text--bold {
+  color: hsl(14, 45%, 36%);
+}
 .recipe__nutrition-row {
   border-bottom: 1px solid #ccc;
 }
