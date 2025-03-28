@@ -91,6 +91,9 @@ hr {
   border-radius: 12px;
   margin-block: 1rem;
 }
+.recipe__prep-time .recipe__list-item::marker {
+  color: hsl(332, 51%, 32%);
+}
 .recipe__section-title-prep {
   color: hsl(332, 51%, 32%);
   font-family: "Inter", sans-serif;
